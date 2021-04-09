@@ -33,6 +33,13 @@
 ##### 5: Tháo usb ra, cắm vào máy cần cài, bước đầu chọn boot từ usb giống cài win<br>
 ##### 6: Erase ổ cứng của máy cần cài theo [APFS|GUID]<br>
 ###### ![Erase](https://github.com/ductranprof99/hackintosh_setup/blob/master/images/BigSurFormatAPFS.jpg)<br>
+
+------------
+### Set up python 3
+brew install pyenv<br>
+pyenv install 3.x.x<br>
+pyenv global 3.x.x<br>
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc<br>
 ##### 7: Ấn install như bt, tuyệt đối không được rút usb ra <br>
 ##### 8: Đợi<br>
 ##### 9: Sau khi cài xong thành công, màn hình setup language các kiểu rồi vào được macOS, vẫn chưa được tháo usb ra<br>
