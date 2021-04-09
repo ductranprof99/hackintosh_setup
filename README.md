@@ -1,6 +1,6 @@
 # hackintosh_setup
-# Windows way to create bootable MacOS usb installer<br>
-# chỉ dùng cho dell eXX50 lattitude
+##### Windows way to create bootable MacOS usb installer<br>
+##### chỉ dùng cho dell eXX50 lattitude
 -----
 ## laptop status<br>
 ##### dell e7250 lattitude<br>
@@ -23,6 +23,11 @@
 -----
 ## MacOs version for this kext setup<br>
 ##### BigSur 11.0 or above (mine is 11.2.3)<br>
+-----
+## About ethernet
+This git include intelmausiethernet kext, this kext support your hackintosh machine able to use ethernet port
+You can import this kext before or after the installation, with me is post-ins. Im using OCC to mount the efi volume then add the kext
+btw if you use OCC, the config.plist is auto update, pls save it somewhere else but not in the EFI volume (yea im veri serious)
 -----
 ## Installation step-by-step<br>
 ##### Lười chụp bỏ mẹ:<br>
